@@ -4,8 +4,14 @@ This app provides abolitionist/decarceral community resources located in Califor
 
 To run this app locally:
 1. Install the libraries used in this project:
-`npm install`
+```javascript
+npm install
+```
 2. Build the project using parcel:
-`npm run build:dev`
+```javascript
+npm run build:dev
+```
 3. Open in your browser:
-`localhost:1234`
+```javascript
+localhost:1234
+```
