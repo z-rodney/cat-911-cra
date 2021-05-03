@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router';
-import { resources } from '../tempStore'
+import resources from '../tempStore'
 
 const ResourceDetail = () => {
   const { resourceId } = useParams();
-  const selectedResource = resources.find(resource => resource.id === resourceId);
+  const selectedResource = resources.find(resource => resource.id === resourceId * 1);
   const { title, address } = selectedResource;
 
   return selectedResource ?

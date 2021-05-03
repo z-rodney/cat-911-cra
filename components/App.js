@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import ResourceList from './ResourceList';
 import ResourceDetail from './ResourceDetail';
 
@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Route component={ResourceList} />
-        <Route path="/:resourceId" component={ResourceDetail} />
+        <Route path="/" exact component={ResourceList} />
+        <Route path="/:resourceId" exact component={ResourceDetail} />
       </Router>
     </div>
   )

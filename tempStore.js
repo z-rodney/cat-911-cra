@@ -1,8 +1,11 @@
 const resources = [
   {
     id: 1,
-    title: "Some Place",
-    address: "123 Address"
+    organization: "2nd Call (Second Chance At Loving Life)",
+    address: "PO Box 191476, Los Angeles CA, 90019",
+    phoneNumber: "213-282-3105",
+    website: "https://www.2ndcall.org/"
+
   },
   {
     id: 2,
