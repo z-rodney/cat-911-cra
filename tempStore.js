@@ -5,7 +5,6 @@ const resources = [
     address: "PO Box 191476, Los Angeles CA, 90019",
     phoneNumber: "213-282-3105",
     website: "https://www.2ndcall.org/"
-
   },
   {
     id: 2,
