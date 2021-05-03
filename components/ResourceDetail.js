@@ -15,7 +15,7 @@ const ResourceDetail = () => {
             <h2>{organization}</h2>
             <p>Location: {address}</p>
             <p>Phone Number: {phoneNumber}</p>
-            <p>Website: {(<a href={website}>{website}</a>) || 'None'}</p>
+            <p>Website: {website ? <a href={website}>{website}</a> :'None'}</p>
           </div>
         ) :
         (
