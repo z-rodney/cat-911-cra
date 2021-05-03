@@ -1,7 +1,7 @@
 import React from 'react';
 
-const SingleResource = () => {
+const ResourceDetail = () => {
   
 }
 
-export default SingleResource;
+export default ResourceDetail;
